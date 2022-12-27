@@ -1,0 +1,122 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+-webkit-tap-highlight-color: transparent;
+}
+.layout{
+height:100vh;
+display:flex;
+background:#82AAE3;
+justify-content:center;
+align-items:center;
+
+}
+.circle{
+height:200px;
+width:200px;
+display:flex;
+justify-content:center;
+text-align:center;
+align-items:center;
+background:#68B984;
+border-radius:100px;
+border:2px soild red;
+
+    
+    
+   
+
+
+
+}
+.circle:focus{
+background:none;
+outline:none;
+}
+.circle h1{
+
+font-size:50px;
+font-weight:300;
+color:white;
+}
+.circle1{
+height:220px;
+width:220px;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:110px;
+background:#CFFDE1;
+}
+.circle2{
+height:250px;
+width:250px;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:125px;
+background:#BFEAF5;
+
+}
+
+.engine p{
+color:#EAFDFC;
+
+
+}
+
+a{
+
+text-decoration:none;
+}
+.body{
+height:100%;
+width:100%;
+}
+.appbar{
+height:300px;
+background:#EB455F;
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+.circle-q {
+
+height:200px;
+width:200px;
+display:flex;
+justify-content:center;
+text-align:center;
+align-items:center;
+border-radius:100px;
+border:2px soild red;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.grid{
+display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+  
+  padding: 10px;
+  height:200px;
+  
+  
+}
+.grid div{
+display:flex;
+justify-content:center;
+align-items:center;
+border:1px solid grey;
+border-radius:5px;
+
+}
